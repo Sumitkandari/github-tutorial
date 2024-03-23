@@ -1,4 +1,4 @@
 function sayHello(){
     console.log("Hello")
 }
-let course="nes"
+let course="new"
