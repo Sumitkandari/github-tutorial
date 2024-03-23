@@ -1,3 +1,3 @@
-hello this is my first commit
+hello this is my first commit from UI
 Now, I have added new changes
 New Changes added through SK-newBranch
