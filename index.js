@@ -1,5 +1,5 @@
 let name="Sumit Kandari"
-let age="23";
+let age="24";
 function Fun(){
     console.log(name)
 }
