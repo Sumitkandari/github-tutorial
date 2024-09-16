@@ -6,3 +6,6 @@ function Fun(){
 function aboveAge(){
     return age>=18
 }
+function addMain(){
+    console.log("Add main ")
+}
