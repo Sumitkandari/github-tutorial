@@ -9,3 +9,6 @@ function aboveAge(){
 function addMain(){
     console.log("Add main ")
 }
+function newMain(){
+    
+}
