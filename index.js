@@ -10,7 +10,7 @@ function addMain(){
     console.log("Add main ")
 }
 function newMain(){
-    console.log("new Mesgfdgdf")
+    console.log("new Mesgfdgfdf")
 }
 function random(){
 
