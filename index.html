@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+          <div id="expand-contract" class="expanded">
+            <div class="inner">
+
+                
+                This section expands and contracts
+                
+                <div class="innerinner">
+                    <div>Name</div>
+                <div>Class</div>
+                <div>Gender</div>
+                </div>
+            </div>
+    
+          </div>
+        
+        
+
+      
+      <button onclick="expandContract()">Expand/Contract</button>
+</body>
+<style>
+    .innerinner{
+        background-color: crimson;
+    }
+    .inner{
+        /* box-sizing: border-box;
+        padding: 2rem;
+        overflow: hidden;
+        height: 100%;
+        transition: all 60s ease; */
+        background-color: green;
+
+    }
+    .expanded{
+        height: 10.5rem;
+        padding: 2rem;
+        overflow: hidden;
+        display: flex;
+        column-gap: 2rem;
+        background-color: pink;
+        transition: all 3s ease;
+}
+.collapsed{
+    
+    height: 0;
+    overflow: hidden;
+    padding: 0 2rem;
+    display: flex;
+    column-gap: 2rem;
+    
+    background-color: pink;
+    transition: all 6s ease;
+
+}
+/* .collapsed>.inner{
+        padding: 0 2rem;
+        height: 0;
+        
+        background-color: green;
+        transition: all 6s ease;
+
+} */
+
+</style>
+<script>
+  function expandContract() {
+   const el = document.getElementById("expand-contract")
+   el.classList.toggle('expanded')
+   el.classList.toggle('collapsed')
+}
+</script>
+</html>
