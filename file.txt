@@ -4,7 +4,3 @@ New Changes added through SK-newBranch
 Added changes in oct 22
 Added changes in oct 22 9:55
 1 oc22
-<<<<<<< HEAD
-=======
-2oct 22
->>>>>>> parent of 7caa21c (3 commit)
